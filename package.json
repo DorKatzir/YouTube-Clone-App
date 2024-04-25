@@ -1,12 +1,12 @@
 {
-  "homepage": "https://dorkatzir.github.io/YouTube-Clone-App",
+  "homepage": "https://dorkatzir.github.io/youtube-clone-app",
   "name": "youtube-clone-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=./",
+    "build": "vite build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
