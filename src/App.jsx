@@ -1,10 +1,9 @@
 
 function App() {
 
-
   return (
     <>
-      Hello Dror
+      <h1>Hello Dror</h1>
     </>
   )
 }
