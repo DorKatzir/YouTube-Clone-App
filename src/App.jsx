@@ -1,7 +1,11 @@
-import { BrowserRouter, Routes, Route } from 'react'
-import { Box } from '@mui/material'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { Box }  from '@mui/material'
 
-function App() (
+import { Navbar, Feed, VideoDetail, ChannelDetail, SearchFeed } from './components'
+
+
+function App() {
+  return (
     <BrowserRouter>
       <Box sx={{ backgroundColor: '#000' }}>
         <Navbar />
@@ -14,6 +18,6 @@ function App() (
       </Box>
     </BrowserRouter>
   )
-
+}
 
 export default App
