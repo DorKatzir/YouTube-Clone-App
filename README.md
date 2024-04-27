@@ -1,6 +1,6 @@
-# Todo List - <a href="https://drork.live" target="_blank">Live Demo</a>
+# TodoList
 
-## laravel crud app
+### CRUD Laravel App - <a href="https://drork.live" target="_blank">live Demo</a>
 
 ### Screenshot
 
